@@ -16,3 +16,14 @@ An example reconstruction of an image as well as the ground truth are visualized
 ![reconstructed](images/reconstructed.gif)
 ![reconstructed](images/raw.gif)
 
+This is the list of the requierd python packages to run the codes: 
+* numpy
+* tensorflow
+* h5py
+* matplotlib
+
+To train a model from scratch, run 'Train.py' and change the velue of the variable 'TrainFromScratch' to True. If you just to train with more data change it to False and add your additional data to 'TrainData.h5'. 
+If you want the model to save the trained model, change 'AutoSaveModel' to True. 
+To predict using the already trained model, run 'Predict.py'. It will read from 'TestData.h5' and plot the reconstruction results. 
+
+
