@@ -25,6 +25,7 @@ This is the list of the required python packages to run the codes:
 To train a model from scratch, run 'Train.py' and change the value of the variable 'TrainFromScratch' to True. If you just to train with more data change it to False and add your additional data to 'TrainData.h5'. 
 If you want the model to save the trained model, change 'AutoSaveModel' to True. 
 To predict using the already trained model, run 'Predict.py'. It will read from 'TestData.h5' and plot the reconstruction results. 
+
 Note: Datasets have been truncated to save the storage size. It is recommended to use at least 700 to 1000 sets of sliced images if you want to train from scratch. 
 
 
