@@ -1,5 +1,5 @@
 # AutoEncoderHeartCT
-An auto-encoder for the heart 2.5-D CT images 
+An auto-encoder for the heart 2.5-D CT images for dimention reduction
 
 Autoencoders are deep machine learning models that can be used as a dimension reduction technique to condense a large amount of information into a small feature space for classification purposes. In this repository, you can find a trained model as well as the code to train a model from scratch to make an autoencoder that reconstructs 2.5-dimensional data. The data is obtained from the COVID-19 patient's heart via 3-D X-ray computed tomography. Each of the input images includes 10 equally-distanced slices from the base to the apex of the heart. 
 
